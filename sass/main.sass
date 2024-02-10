@@ -50,6 +50,16 @@ ul
 	li
 		display: block
 			font-size: 16px
+.btn
+	padding: 5px 15px
+	border-radius: 3px
+	&:hover
+		text-decoration: none
+	&-blue
+		background-color: #052B63
+		color: #fff
+		&:hover
+			background-color: darken(#052B63, 5)
 header
 	padding: 15px 0
 	.logo-wrap
@@ -86,11 +96,14 @@ header
 	.journals-wrap
 		.items
 			display: flex
+			flex-wrap: wrap
 			gap: 15px
 			.item
 				width: 30%
 				border-radius: 5px
 				position: relative
+				background-color: #F4F4F4
+				padding: 15px
 				.top
 					.logo
 						display: inline-block

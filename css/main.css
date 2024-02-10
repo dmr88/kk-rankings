@@ -59,6 +59,21 @@ ul li {
   display-font-size: 16px;
 }
 
+.btn {
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.btn-blue {
+  background-color: #052B63;
+  color: #fff;
+}
+.btn-blue:hover {
+  background-color: #04204b;
+}
+
 header {
   padding: 15px 0;
 }
@@ -101,12 +116,15 @@ header .categories-wrap .items .item {
 }
 header .journals-wrap .items {
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
 }
 header .journals-wrap .items .item {
   width: 30%;
   border-radius: 5px;
   position: relative;
+  background-color: #F4F4F4;
+  padding: 15px;
 }
 header .journals-wrap .items .item .top .logo {
   display: inline-block;
