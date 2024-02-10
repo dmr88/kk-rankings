@@ -120,7 +120,7 @@ header .journals-wrap .items {
   gap: 15px;
 }
 header .journals-wrap .items .item {
-  width: 30%;
+  width: 32%;
   border-radius: 5px;
   position: relative;
   background-color: #F4F4F4;
@@ -157,4 +157,27 @@ header .journals-wrap .items .item .issn {
 }
 header .journals-wrap .items .item .bottom {
   margin-top: 15px;
+}
+
+footer {
+  background-color: #444;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  min-height: 100px;
+  margin-top: 25px;
+}
+footer ul li {
+  display: inline-block;
+  border-left: 1px solid #fff;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+footer ul li a {
+  color: #fff;
+}
+footer ul li:first-child {
+  border-left: none;
+  margin-left: 0;
+  padding-left: 0;
 }/*# sourceMappingURL=main.css.map */
