@@ -25,12 +25,12 @@ html.js .loader
 		position: absolute
 
 body
-	font-family: "RobotoRegular", sans-serif
+	font-family: 'Inter', sans-serif
 	font-weight: normal
 	font-size: 14px
 	min-width: 320px
 	position: relative
-	line-height: 1.6
+	line-height: 1.2
 	-webkit-font-smoothing: antialiased
 	overflow-x: hidden
 
@@ -43,3 +43,78 @@ body textarea:required:valid
 
 .hidden
 	display: none
+ul
+	list-style-type: none
+	margin: 0
+	padding: 0
+	li
+		display: block
+			font-size: 16px
+header
+	padding: 15px 0
+	.logo-wrap
+		text-align: center
+	.main-menu
+		margin-top: 25px
+		li
+			text-align: center
+			a
+				font-size: 18px
+				display: block
+				padding: 10px 0
+	.top-banner
+		background: rgb(115,92,255)
+		background: linear-gradient(90deg, rgba(115,92,255,1) 0%, rgba(139,0,205,1) 100%)
+		padding: 15px 25px
+		color: #fff
+		font-size: 40px
+		border-radius: 5px
+		font-weight: 700
+		margin-top: 15px
+	.categories-wrap
+		.items
+			display: flex
+			gap: 15px
+			.item
+				width: 20%
+				background-image: url('../img/cat-icon.png')
+				background-repeat: no-repeat
+				background-position: 5px 50%
+				background-color: #E5F3FF
+				border-radius: 5px
+				padding: 25px 0 25px 35px
+	.journals-wrap
+		.items
+			display: flex
+			gap: 15px
+			.item
+				width: 30%
+				border-radius: 5px
+				position: relative
+				.top
+					.logo
+						display: inline-block
+						p
+							margin: 2px 0
+				.achivement
+					background-color: #FFE600
+					color: #000
+					display: inline-block
+					font-size: 10px
+					position: absolute
+					top: 0
+					right: 0
+					padding: 2px 5px
+				.name
+					color: #000
+					font-size: 16px
+					margin: 15px 0
+					display: block
+				.since, .issn
+					font-size: 10px
+					display: inline-block
+				.issn
+					float: right
+				.bottom
+					margin-top: 15px
+
